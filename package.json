@@ -1,16 +1,16 @@
 {
   "name": "chatgpt-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI chatbot application using ChatGPT API and Express",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.0"
-  }
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  },
+  "author": "",
+  "license": ""
 }
